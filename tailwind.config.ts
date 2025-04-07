@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -62,25 +61,6 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				},
-				// Optimove custom colors
-				optimove: {
-					primary: '#FF5A5F',
-					secondary: '#00A699',
-					success: '#4CAF50',
-					warning: '#FFC107',
-					error: '#F44336',
-					background: '#F7F7F7',
-					text: '#333333',
-					'text-light': '#757575',
-					'card-bg': '#FFFFFF',
-				},
-				// Platform colors
-				platform: {
-					swiggy: '#FC8019',
-					zomato: '#CB202D',
-					dunzo: '#00D290',
-					other: '#757575',
 				}
 			},
 			borderRadius: {
